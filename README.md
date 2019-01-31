@@ -34,3 +34,8 @@ add an alias for the pi's hostname <br />
 - add <PI-IP-ADRESS> <ALIAS> to the file <br />
 - now ssh to your pi with the alias! <br />
 `ssh <PI-USERNAME>@<ALIAS>` <br />
+
+## GitHub
+copy relevant github directories and set as upstream
+- git init <br />
+- git clone <REPO>
