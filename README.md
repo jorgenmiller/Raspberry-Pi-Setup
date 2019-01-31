@@ -36,7 +36,7 @@ add an alias for the pi's hostname <br />
 `ssh <PI-USERNAME>@<ALIAS>` <br />
 
 ## GitHub
-copy relevant github directories 
+copy relevant github directories <br />
 `git init` <br />
 - create new folder as current state of the git repo <br />
 `git clone <REPO>` <br />
