@@ -1,34 +1,34 @@
 # Raspberry-Pi-Setup
-How I set up my pi's.
+How I set up my pi's. <br />
 
 ## Operating System
-Raspbian Stretch with desktop and recommended software
-[download](https://www.raspberrypi.org/downloads/raspbian/)
+Raspbian Stretch with desktop and recommended software <br />
+[download](https://www.raspberrypi.org/downloads/raspbian/) <br />
 
 ## Raspi-Config
-configure basic settings
-```sudo raspi-config```
-- change password
-- connect to wifi
-- set hostname
-- ssh enabled
-- i2c enabled if needed for HATS
-- expand filesystem
-- finish and reboot
+configure basic settings <br />
+`sudo raspi-config`
+- change password <br />
+- connect to wifi <br />
+- set hostname <br />
+- ssh enabled <br />
+- i2c enabled if needed for HATS <br />
+- expand filesystem <br />
+- finish and reboot <br />
 
 ## SSH
-Passwordless SSH from my computer to the pi's
-- check for ssh keys on your computer in ~/.ssh
-- if none, generate them
-```ssh-keygen```
--send ssh public key to the pi from your computer
-```ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>```
-- now ssh to your pi!
-```ssh <PI-USERNAME>@<PI-IP-ADDRESS>```
+Passwordless SSH from my computer to the pi's <br />
+- check for ssh keys on your computer in ~/.ssh <br />
+- if none, generate them <br />
+`ssh-keygen` <br />
+- send ssh public key to the pi from your computer <br />
+`ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`  <br />
+- now ssh to your pi! <br />
+`ssh <PI-USERNAME>@<PI-IP-ADDRESS>` <br />
 
 ## Pi Hostname Alias
-add an alias for the pi's hostname
-- on your computer, edit /etc/hosts
-- add <PI-IP-ADRESS> <ALIAS> to the file
-- now ssh to your pi with the alias!
-```ssh <PI-USERNAME>@<ALIAS>```
+add an alias for the pi's hostname <br />
+- on your computer, edit /etc/hosts <br />
+- add <PI-IP-ADRESS> <ALIAS> to the file <br />
+- now ssh to your pi with the alias! <br />
+`ssh <PI-USERNAME>@<ALIAS>` <br />
