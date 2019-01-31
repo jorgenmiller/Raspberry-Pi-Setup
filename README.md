@@ -7,7 +7,7 @@ Flash the SD card using [Etcher](https://www.balena.io/etcher/)
 
 ## Raspi-Config
 configure basic settings  
-> `sudo raspi-config`
+`sudo raspi-config`
 - change password  
 - connect to wifi  
 - set hostname  
@@ -21,11 +21,11 @@ full usage guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/
 Passwordless SSH from my computer to the pi's  
 - check for ssh keys on your computer in ~/.ssh  
 - if none, generate them  
-> `ssh-keygen`  
+`ssh-keygen`  
 - send ssh public key to the pi from your computer  
-> `ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`   
+`ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`   
 - now ssh to your pi!  
-> `ssh <PI-USERNAME>@<PI-IP-ADDRESS>`  
+`ssh <PI-USERNAME>@<PI-IP-ADDRESS>`  
 full ssh guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)  
 
 ## Pi Hostname Alias
@@ -33,9 +33,9 @@ add an alias for the pi's hostname
 - on your computer, edit /etc/hosts  
 - add <PI-IP-ADRESS> <ALIAS> to the file  
 - now ssh to your pi with the alias!  
-> `ssh <PI-USERNAME>@<ALIAS>`  
+`ssh <PI-USERNAME>@<ALIAS>`  
 
 ## GitHub
 clone relevant github directory as new folder  
-> `git init`  
+`git init`  
 >`git clone <REPO>`  
