@@ -2,8 +2,8 @@
 How I set up my pi's. <br />
 
 ## Operating System
-Raspbian Stretch with desktop and recommended software <br />
-[download](https://www.raspberrypi.org/downloads/raspbian/) <br />
+[Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) with desktop and recommended software <br />
+Flash the SD card using [Etcher](https://www.balena.io/etcher/) <br />
 
 ## Raspi-Config
 configure basic settings <br />
@@ -15,6 +15,7 @@ configure basic settings <br />
 - i2c enabled if needed for HATS <br />
 - expand filesystem <br />
 - finish and reboot <br />
+full usage guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) <br />
 
 ## SSH
 Passwordless SSH from my computer to the pi's <br />
@@ -25,6 +26,7 @@ Passwordless SSH from my computer to the pi's <br />
 `ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`  <br />
 - now ssh to your pi! <br />
 `ssh <PI-USERNAME>@<PI-IP-ADDRESS>` <br />
+full ssh guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) <br />
 
 ## Pi Hostname Alias
 add an alias for the pi's hostname <br />
