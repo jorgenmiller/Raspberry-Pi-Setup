@@ -7,7 +7,7 @@ Raspbian Stretch with desktop and recommended software
 
 ## Raspi-Config
 configure basic settings
-`sudo raspi-config`
+```sudo raspi-config```
 - change password
 - connect to wifi
 - set hostname
@@ -20,15 +20,15 @@ configure basic settings
 Passwordless SSH from my computer to the pi's
 - check for ssh keys on your computer in ~/.ssh
 - if none, generate them
-`ssh-keygen`
+```ssh-keygen```
 -send ssh public key to the pi from your computer
-`ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`
+```ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>```
 - now ssh to your pi!
-`ssh <PI-USERNAME>@<PI-IP-ADDRESS>`
+```ssh <PI-USERNAME>@<PI-IP-ADDRESS>```
 
 ## Pi Hostname Alias
 add an alias for the pi's hostname
 - on your computer, edit /etc/hosts
 - add <PI-IP-ADRESS> <ALIAS> to the file
 - now ssh to your pi with the alias!
-`ssh <PI-USERNAME>@<ALIAS>`
+```ssh <PI-USERNAME>@<ALIAS>```
