@@ -15,6 +15,7 @@ configure basic settings
 - i2c enabled if needed for HATS  
 - expand filesystem  
 - finish and reboot  
+  
 full usage guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/configuration/raspi-config.md)  
 
 ## SSH
@@ -26,6 +27,7 @@ Passwordless SSH from my computer to the pi's
 `ssh-copy-id <PI-USERNAME>@<PI-IP-ADDRESS>`   
 - now ssh to your pi!  
 `ssh <PI-USERNAME>@<PI-IP-ADDRESS>`  
+  
 full ssh guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md)  
 
 ## Pi Hostname Alias
