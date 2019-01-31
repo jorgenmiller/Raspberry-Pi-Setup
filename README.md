@@ -38,4 +38,4 @@ add an alias for the pi's hostname
 ## GitHub
 clone relevant github directory as new folder  
 `git init`  
->`git clone <REPO>`  
+`git clone <REPO>`  
