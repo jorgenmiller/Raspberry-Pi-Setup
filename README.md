@@ -11,8 +11,8 @@ configure basic settings
 - change password  
 - connect to wifi  
 - set hostname  
-- ssh enabled  
-- i2c enabled if needed for HATS  
+- SSH enabled  
+- I2C or SPI enabled if needed for HATs  
 - expand filesystem  
 - finish and reboot  
   
