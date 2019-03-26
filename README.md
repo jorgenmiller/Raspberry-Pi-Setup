@@ -33,7 +33,7 @@ full ssh guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/re
 ## Pi Hostname Alias
 add an alias for the pi's hostname  
 - on your computer, edit /etc/hosts  
-- add <PI-IP-ADRESS> <ALIAS> to the file  
+- add `<PI-IP-ADRESS> <ALIAS>` to the file  
 - now ssh to your pi with the alias!  
 `ssh <PI-USERNAME>@<ALIAS>`  
 
