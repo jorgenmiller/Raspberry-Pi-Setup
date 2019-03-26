@@ -3,7 +3,7 @@ How I set up my pi's.
 
 ## Operating System
 [Raspbian Stretch](https://www.raspberrypi.org/downloads/raspbian/) with desktop and recommended software  
-Flash the SD card using [Etcher](https://www.balena.io/etcher/)  
+Flash the SD card using [Etcher](https://www.balena.io/etcher/) (for Mac OS)  
 
 ## Raspi-Config
 configure basic settings  
