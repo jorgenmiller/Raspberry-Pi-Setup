@@ -39,7 +39,7 @@ add an alias for the pi's hostname
 `ssh <PI-USERNAME>@<ALIAS>`  
 
 ## SCP
-- copy file to the raspberry pi
+- copy file to the raspberry pi  
 `scp <FILE> <PI-USERNAME>@<PI-IP-ADDRESS>:<PATH>`
 
 ## GitHub
