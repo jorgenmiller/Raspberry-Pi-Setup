@@ -34,8 +34,13 @@ full ssh guide at [raspberrypi.org](https://www.raspberrypi.org/documentation/re
 add an alias for the pi's hostname  
 - on your computer, use sudo to edit /etc/hosts  
 - add `<PI-IP-ADRESS> <ALIAS>` to the file  
+- now the alias is linked to the IP address
 - now ssh to your pi with the alias!  
 `ssh <PI-USERNAME>@<ALIAS>`  
+
+## SCP
+- copy file to the raspberry pi
+`scp <FILE> <PI-USERNAME>@<PI-IP-ADDRESS>:<PATH>`
 
 ## GitHub
 clone relevant github directory as new folder  
